@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<link href="css/bootstrap.css" rel="stylesheet">
+<!--[if lt IE 9]>
+<script src="js/html5shiv.min.js"></script>
+<script src="js/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+<div class="container">
+        <h1>插件-图片轮播广告</h1>
+      <div class="carousel" data-ride="carousel">
+          <!--必需&#45;&#45;轮播广告的滚动内容-->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <img src="pic/11.jpg">
+              </div>
+              <div class="item">
+                  <img src="pic/22.jpg">
+              </div>
+              <div class="item ">
+                  <img src="pic/33.jpg">
+              </div>
+              <div class="item ">
+                  <img src="pic/44.jpg">
+              </div>
+          </div>
+      </div>
+      <h1>带提示文字的轮播</h1>
+       <div class="carousel" data-ride="carousel">
+           <div class="carousel-inner">
+             <div class="item active">
+                 <img src="pic/11.jpg">
+                 <div class="carousel-caption">
+                     <h4>世界名画-1</h4>
+                     <span>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem illo laborum minus nobis optio quasi quis ratione sequi voluptate! Aperiam error exercitationem harum in laudantium minima possimus quae temporibus?</span>
+                     </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="pic/22.jpg">
+                 <div class="carousel-caption">
+                     <h4>世界名画-2</h4>
+                     <span>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem illo laborum minus nobis optio quasi quis ratione sequi voluptate! Aperiam error exercitationem harum in laudantium minima possimus quae temporibus?</span>
+                     </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="pic/33.jpg">
+                 <div class="carousel-caption">
+                     <h4>世界名画-3</h4>
+                     <span>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem illo laborum minus nobis optio quasi quis ratione sequi voluptate! Aperiam error exercitationem harum in laudantium minima possimus quae temporibus?</span>
+                     </span>
+                 </div>
+             </div>
+             <div class="item">
+                 <img src="pic/44.jpg">
+                 <div class="carousel-caption">
+                     <h4>世界名画-4</h4>
+                     <span>
+                         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dolorem illo laborum minus nobis optio quasi quis ratione sequi voluptate! Aperiam error exercitationem harum in laudantium minima possimus quae temporibus?</span>
+                     </span>
+                 </div>
+             </div>
+           </div>
+       </div>
+    <h1>带上一张/下一张轮播</h1>
+    <div class="carousel"  data-ride="carousel" id="ad3">
+        <!--必需：轮播广告的滚动的内容-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="pic/11.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/22.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/33.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/44.jpg">
+            </div>
+        </div>
+        <!--可选：轮播广告固定内容-->
+        <a href="#ad3" class="carousel-control left" data-slide="prev" >
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#ad3" class="carousel-control right" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+
+    <h1>带分页功能的轮播</h1>
+    <div class="carousel"  data-ride="carousel" id="ad4">
+        <!--必需：轮播广告的滚动的内容-->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="pic/11.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/22.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/33.jpg">
+            </div>
+            <div class="item ">
+                <img src="pic/44.jpg">
+            </div>
+        </div>
+        <!--上一页下一页-->
+        <a href="#ad4" class="carousel-control left"  data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a href="#ad4" class="carousel-control right" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        <!--分页页码-->
+        <ul class="carousel-indicators">
+            <li data-slide-to="0" data-target="#ad4" class="active"></li>
+            <li data-slide-to="1" data-target="#ad4"></li>
+            <li data-slide-to="2" data-target="#ad4"></li>
+            <li data-slide-to="3" data-target="#ad4"></li>
+        </ul>
+    </div>
+</div>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>
